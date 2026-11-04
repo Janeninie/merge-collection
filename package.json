@@ -1,0 +1,19 @@
+{
+  "name": "merge-collection",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Merge three pre-sorted integer collections without a sort function.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/example.js",
+    "test": "npm run build && node --test dist/test/merge.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "7.0.2"
+  }
+}
